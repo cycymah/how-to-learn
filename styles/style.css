@@ -21,12 +21,12 @@
 }
 
 .logo {
+  position: absolute;
   width: 183px;
   z-index: 1;
 }
 
 .logo_place_header {
-  position: absolute;
   top: 32px;
   left: 64px;
 }
@@ -74,6 +74,7 @@
   right: 0;
 }
 
+/* Блок description */
 .two-columns {
   display: flex;
   justify-content: space-between;
@@ -101,14 +102,11 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__paragraph_marg_top-bot {
   margin: 30px 0;
-}
-
-.two-columns__paragraph_no-margin {
-  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -117,6 +115,7 @@
   font-size: 24px;
 }
 
+/* Блок digits начало */
 .digits {
   margin: 100px 0;
 }
@@ -131,6 +130,7 @@
   margin: 0 auto 20px;
   text-align: center;
 }
+
 .sub-title {
   line-height: 34px;
   font-size: 24px;
@@ -149,26 +149,26 @@
   width: 1100px;
   margin: 0 auto;
 }
+
 .table__cell {
   width: 250px;
   margin-top: 60px;
 }
+
 .table__heading {
-  margin: 0 0 20px;
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 .table__text {
-  margin: 0;
+  margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight:  normal;
 }
 
-.table__text_mar-bot {
-  margin: 20px 0 0;
-}
+/* Блок Файнман */
 .feinman {
   position: relative;
   min-height: 790px;
@@ -209,7 +209,7 @@
   font-weight:  normal;
 }
 
-
+/* Блок Кауфман */
 .kaufman {
   position: relative;
   background-color: #1f1f1f;
@@ -217,10 +217,12 @@
   padding: 90px 0;
   overflow: hidden;
 }
+
 .kaufman_position_hight {
   position: relative;
   z-index: 1;
 }
+
 .kaufman_text_white {
   color: white;
 }
@@ -242,10 +244,11 @@
   z-index: 0;
 }
 
+/* Блок footer */
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
-  padding-top: 60px;
+  border: 1px solid transparent;
 }
 
 .footer__columns {
@@ -253,20 +256,28 @@
   position: relative;
   flex-basis: 711px;
   width: 90%;
-  min-height: 250px;
-  margin: 0 auto 40px;
+  min-height: 300px;
+  margin: 60px auto 40px;
   justify-content: space-between;
+}
+
+.logo_place_footer {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .footer__columns_content_copiright {
   width: 50%;
 }
+
 .footer__column-headind {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   margin: 0 0 20px;
 }
+
 .footer__column-links {
   list-style: none;
   margin: 0 0 16px;
@@ -278,11 +289,6 @@
 
 .footer__column-links_text_white {
   color: white;
-}
-
-.footer__columns_social {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__social-icon {
