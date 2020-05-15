@@ -100,7 +100,7 @@
 
 .two-columns__paragraph {
   line-height: 34px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   margin: 0;
 }
@@ -118,6 +118,7 @@
 /* Блок digits начало */
 .digits {
   margin: 100px 0;
+  min-height: 545px;
 }
 
 .section-title {
@@ -213,6 +214,7 @@
 .kaufman {
   position: relative;
   background-color: #1f1f1f;
+  min-height: 545px;
   margin: 0 auto;
   padding: 90px 0;
   overflow: hidden;
