@@ -34,7 +34,7 @@
 .header__title {
   display: block;
   width: 730px;
-  margin-left: 65px;
+  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -283,11 +283,8 @@
   justify-content: space-between;
   color: white;
 }
-.footer__column {
 
-}
-
-.footer__column_text-logo_position {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -322,7 +319,7 @@
   font-weight: normal;
 }
 
-.footer__column-links_no-decor_white {
+.footer__link {
   text-decoration: none;
   color: white;
 }
@@ -330,4 +327,5 @@
 .footer__social-icon {
   margin-right: 10px;
 }
-
+/* Спасибо большоое человеку, который проверяет этот код! Будь здоров и счастлив!
+Да прибудет с тобой кофе и печеньки:) */
