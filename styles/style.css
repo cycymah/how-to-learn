@@ -55,6 +55,7 @@
   text-decoration: none;
 }
 
+ /* картинка переднего плана */
 .header__main-illustration {
   position: absolute;
   width: 750px;
@@ -109,6 +110,7 @@
   margin: 30px 0;
 }
 
+/* Жирный вывод */
 .two-columns__span-accent {
   font-weight: bold;
   line-height: 34px;
@@ -143,6 +145,7 @@
   text-align: center;
 }
 
+/* Универсальная таблица, будет использована в другом блоке */
 .table {
   display: flex;
   flex-wrap: wrap;
@@ -225,6 +228,7 @@
   z-index: 1;
 }
 
+/* Меняем тест на белый, это же правило использовалось для ссылок в футере */
 .kaufman_text_white {
   color: white;
 }
@@ -247,6 +251,7 @@
 }
 
 /* Блок footer */
+/* Рамка добавлена для фикса, ребенок сдвигал родителя на 60px вниз отпредыдущего блока */
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
@@ -280,6 +285,7 @@
   margin: 0 0 20px;
 }
 
+/* Стили для ul списка "О практикуме" и "Соцсетей" */
 .footer__column-links {
   list-style: none;
   margin: 0 0 16px;
@@ -289,10 +295,7 @@
   font-weight: normal;
 }
 
-.footer__column-links_text_white {
-  color: white;
-}
-
+/* Отодвигаем тест от картинок */
 .footer__social-icon {
   margin-right: 10px;
 }
