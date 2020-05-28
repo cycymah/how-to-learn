@@ -6,10 +6,9 @@
 @import url(./__book-container/khan__book-container.css);
 @import url(./__book-pic/khan____book-pic.css);
 @import url(./__buy-link/khan__buy-link.css);
+@import url(./__container/khan__container.css);
 
 .khan {
-  width: 80%;
-  margin: 0 auto;
   padding: 105px 0 0;
   background-color: #f2f2f2;
 }
