@@ -1,0 +1,11 @@
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+@import url(../../rotation/rotation.css);
+
+.header__square-pic {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
+}

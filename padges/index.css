@@ -1,0 +1,24 @@
+@import url(../bloks/header/header.css);
+@import url(../bloks/logo/logo.css);
+@import url(../bloks/two-columns/two-columns.css);
+@import url(../bloks/digits/digits.css);
+@import url(../bloks/section-title/section-title.css);
+@import url(../bloks/section-subtitle/section-subtitle.css);
+@import url(../bloks/table/table.css);
+@import url(../bloks/feinman/feinman.css);
+@import url(../bloks/kaufman/kaufman.css);
+@import url(../bloks/footer/footer.css);
+@import url(../bloks/techniques/techniques.css);
+
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+
