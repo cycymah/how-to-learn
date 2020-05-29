@@ -1,24 +1,24 @@
 @import url(../vendors/normalize.css);
-@import url(../bloсks/page/page.css);
-@import url(../bloсks/header/header.css);
-@import url(../bloсks/description/description.css);
-@import url(../bloсks/logo/logo.css);
-@import url(../bloсks/two-columns/two-columns.css);
-@import url(../bloсks/digits/digits.css);
-@import url(../bloсks/section-title/section-title.css);
-@import url(../bloсks/section-subtitle/section-subtitle.css);
-@import url(../bloсks/table/table.css);
-@import url(../bloсks/feinman/feinman.css);
-@import url(../bloсks/kaufman/kaufman.css);
-@import url(../bloсks/footer/footer.css);
-@import url(../bloсks/techniques/techniques.css);
-@import url(../bloсks/video/video.css);
-@import url(../bloсks/oakley/oakley.css);
-@import url(../bloсks/khan/khan.css);
-@import url(../bloсks/resources/resources.css);
-@import url(../bloсks/link-animation/link-animation.css);
-@import url(../bloсks/cards/cards.css);
-@import url(../bloсks/rotation/rotation.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/feinman/feinman.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/link-animation/link-animation.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/rotation/rotation.css);
 
 
 /* Привет, человек проверяющий эту работу! Добра тебе и спасибо! */
